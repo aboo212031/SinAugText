@@ -1,0 +1,73 @@
+/* App.css */
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+/* Center the content inside the container */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+}
+
+/* Add some padding and styling to the form */
+.container {
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the input field to make it larger */
+.input-field {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensures padding doesn't affect the width */
+}
+
+.input-field:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+/* Style the submit button */
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+/* Style the output label */
+.output-label {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
